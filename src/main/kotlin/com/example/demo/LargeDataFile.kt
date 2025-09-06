@@ -568,6 +568,10 @@ class LargeDataProcessor {
     }
 }
 
+object TestObject {
+    const val TEST = 1
+}
+
 enum class TaskStatus {
     PENDING,
     PROCESSING,
