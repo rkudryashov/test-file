@@ -568,6 +568,13 @@ class LargeDataProcessor {
     }
 }
 
+enum class TaskStatus {
+    PENDING,
+    PROCESSING,
+    COMPLETED,
+    FAILED
+}
+
 // Data classes for the large data processor
 data class ProcessedResult(
     val items: List<ProcessedItem>,
